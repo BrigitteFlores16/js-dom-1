@@ -3,18 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document1</title>
-<!-- Bootstrap -->
+  <title>la Lampadina</title>
+  <!-- Bootstrap -->
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css'
     integrity='sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=='
     crossorigin='anonymous' />
-     <!--CSS-->
-     <link rel="stylesheet" href="css/style.css">
-   <!-- JavaScript -->
-  <script defer src="script.js"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-</body>
+  <div class="container py-5">
+    <h1 class="text-dark">La lampadina</h1>
+  </div>
+  <div class="text-center">
+    <div class="image-lampadina">
+        <img id="image-lampadina1" src="./img/white_lamp.png" alt="Lampadina spenta" />
+      </div>
+      <div class="mt-3">
+        <button id="button-accendi1" type="button" class="btn btn-outline-success">Accendi</button>
+      </div>
+    </div>
+  </div>
 
+  <!-- JavaScript -->
+  <script defer src="js/script.js"></script>
+</body>
 </html>
